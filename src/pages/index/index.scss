@@ -1,0 +1,321 @@
+/*
+ * @Author: guidetheorient 
+ * @Date: 2018-04-24 13:43:21 
+ * @Last Modified by: guidetheorient
+ * @Last Modified time: 2018-04-24 22:59:58
+ */
+@import '../common/color.scss';
+
+.sec1 {
+  // height: 575px;
+  padding: 140px 0;
+  background: url('../../assets/img/banner_bg.png') no-repeat center/cover;
+  color: #fff;
+  .slogan{
+    font-size: 42px;
+    font-weight: normal;
+  }
+  .intro{
+    margin-top: 50px;
+    font-size: 0;
+    font-weight: normal;
+    .item{
+      padding: 5px;
+      font-size: 20px;
+    }
+  }
+  .btn-wrapper{
+    margin: 60px 0 0 40px;
+    font-size: 0;
+    .btn{
+      display: inline-block;
+      margin-right: 40px;
+      padding: 4px 20px;
+      line-height: 42px;
+      font-size: 20px;
+      border: 1px solid #fff;
+      border-radius: 3px;
+      &:hover{
+        color: $themeColor;
+        background-color: #fff;
+      }
+    }
+  }
+}
+
+.sec2{
+  margin: 20px 0;
+  padding: 40px 0; 
+  background: url('../../assets/img/bg01.png') no-repeat center/cover;
+  font-size: 0;
+  .wrapper{
+    display: inline-block;
+    box-sizing: border-box;
+    width: 50%;
+    vertical-align: middle;
+  }
+  .con-wrapper{
+    text-align: right;
+    padding-right: 5%;
+    .title{
+      margin-bottom: 60px;
+      font-size: 36px;
+      font-weight: normal;
+      color: $themeColor;
+    }
+    .text{
+      font-size: 22px;
+      color: #333;
+    }
+  }
+  .img-wrapper{
+    text-align: left;
+    padding-left: 5%;
+    .img{
+      height: 300px;
+    }
+  }
+}
+
+.sec3{
+  margin: 20px 0;
+  padding: 40px 0; 
+  background: url('../../assets/img/bg02.png') no-repeat center/cover;
+  font-size: 0;
+  .wrapper{
+    display: inline-block;
+    box-sizing: border-box;
+    width: 50%;
+    vertical-align: middle;
+  }
+  .con-wrapper{
+    text-align: left;
+    padding-left: 5%;
+    .title{
+      margin-bottom: 60px;
+      font-size: 36px;
+      font-weight: normal;
+      color: $themeColor;
+    }
+    .text{
+      font-size: 22px;
+      color: #333;
+    }
+  }
+  .img-wrapper{
+    text-align: right;
+    padding-right: 5%;
+    .img{
+      height: 400px;
+    }
+  }
+}
+
+.sec4{
+  margin: 20px 0;
+  padding: 40px 0; 
+  .service-wrapper{
+    font-size: 0;
+    margin-left: -10px;
+    .item{
+      // overflow: hidden;
+      display: inline-block;
+      position: relative;
+      transition: transform .4s;
+      width: 218px;
+      background: url('../../assets/img/img06.jpg') no-repeat center/cover;
+      margin-right: 10px;
+      &.item1{
+        background-image: url('../../assets/img/img06.jpg');
+      }
+      &.item2{
+        background-image: url('../../assets/img/img07.jpg');
+      }
+      &.item3{
+        background-image: url('../../assets/img/img08.jpg');
+      }
+      &.item4{
+        background-image: url('../../assets/img/img09.jpg');
+      }
+      &.item5{
+        background-image: url('../../assets/img/img10.jpg');
+      }
+      // .item > a
+      a{
+        display: inline-block;
+        height: 100%;
+        width: 100%;
+      }
+      &:hover{
+        z-index: 10;
+        transform: scale3d(1.1, 1.1, 1);
+      }
+      .service{
+        padding: 60px 0 100px 0;
+        text-align: center;
+        color: #fff;
+        .logo{
+          width: 50px;
+        }
+        .title{
+          margin-top: 20px;
+          font-size: 18px;
+        }
+        .text{
+          margin-top: 80px;
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}
+
+
+.sec5{
+  margin: 20px 0;
+  background: url('../../assets/img/bg03.jpg') no-repeat center/auto 568px;
+  .step-list{
+    height: 568px;
+    font-size: 18px;
+    color: $themeColor;
+    .item{
+      position: absolute;
+    }
+    .item1{
+      top: 175px;
+      left: 280px;
+    }
+    .item2{
+      top: 265px;
+      left: 500px;
+    }
+    .item3{
+      top: 285px;
+      left: 700px;
+    }
+    .item4{
+      top: 380px;
+      right: 140px;
+    }
+    .item5{
+      top: 450px;
+      right: 385px;
+    }
+    .item6{
+      top: 430px;
+      left: 365px;
+    }
+  }
+}
+
+.sec6{
+  padding: 100px 0;
+  text-align: center;
+  .title{
+    font-size: 30px;
+    color: #666;
+  }
+  .btn{
+    display: inline-block;
+    margin-top: 100px;
+    padding: 0 120px;
+    line-height: 68px;
+    font-size: 24px;
+    color: #fff;
+    background-color: #0E93FF;
+    border-radius: 3px;
+  }
+}
+
+.sec7{
+  background: url('../../assets/img/footer_bg.png') no-repeat center/cover;
+  font-size: 0;
+  .w{
+    width: 900px;
+  }
+  .site-info{
+    display: inline-block;
+    padding: 40px 0; 
+    width: 200px;
+    font-size: 14px;
+    color: #808285;
+    vertical-align: top;
+    
+    .title{
+      text-align: left;
+      margin-bottom: 20px;
+      color: #fff;
+    }
+    ul > .item{
+      margin-bottom: 5px;
+      a{
+        transition: color .3s;
+        &:hover{
+          color: $themeColor;
+        }
+      }
+    }
+  }
+  .support{
+    width: 300px;
+  }
+}
+
+.sec8{
+  padding: 15px 0 10px;
+  background-color: #232426;
+  .w{
+    width: 900px;
+  }
+  .copyright{
+    float: left;
+    margin-right: 60px;
+    font-size: 12px;
+    color: #808285;
+  }
+  .contact-wrapper{
+    font-size: 0;
+    .item{
+      display: inline-block;
+      position: relative;
+      margin-right: 30px;
+      a{
+        display: inline-block;
+        img{
+          width: 26px;
+        }
+        &:hover {
+          img{
+            visibility: hidden;
+          }
+          & + .qrcode-wrapper{
+            display: block;
+          }
+        } 
+        &.wechat-icon:hover{
+          background: url('../../assets/img/f_img01_over.png') no-repeat center/26px auto;
+        }
+        &.weibo-icon:hover{
+          background: url('../../assets/img/f_img02_over.png') no-repeat center/26px auto;
+        }
+        &.qq-icon:hover{
+          background: url('../../assets/img/f_img03_over.png') no-repeat center/26px auto;
+        }
+      }
+      .qrcode-wrapper{
+        display: none;
+        position: absolute;
+        bottom: 35px;
+        left: 50%;
+        transform: translateX(-50%);
+        .wechat-qr{
+          width: 100px;
+        }
+        .qq-qr{
+          width: 150px;
+        }
+      }
+    }
+  }
+  
+}

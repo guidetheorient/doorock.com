@@ -1,0 +1,32 @@
+*,:after,:before {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li,ol,ul {
+  list-style: none;
+}
+
+body,html {
+  font-size: 16px;
+  font-family: Helvetica,Arial,Microsoft Yahei,PingFang SC,Hiragino Sans GB;
+  line-height: 1.5;
+  background-color: #fff;
+}
+
+.w {
+  width: 1130px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}

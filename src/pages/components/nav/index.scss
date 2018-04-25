@@ -1,0 +1,70 @@
+/*
+ * @Author: guidetheorient 
+ * @Date: 2018-04-24 13:10:25 
+ * @Last Modified by: guidetheorient
+ * @Last Modified time: 2018-04-25 14:57:07
+ */
+@import '../../common/color.scss';
+.nav-wrapper{
+  padding: 20px 0 5px 0;
+  box-shadow: 2px 1px 5px #c6c6c6;
+  background: #fff;
+  &.fixed{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 20;
+  }
+  .left{
+    display: inline-block;
+    .logo{
+      width: 90px;
+    }
+  }
+  .right{
+    float: right;
+    font-size: 0;
+    .site-nav{
+      display: inline-block;
+      padding-right: 10px;
+      .item{
+        display: inline-block;
+        margin: 0 10px;
+        color: $themeColor;
+        .link{
+          display: inline-block;
+          padding: 0 30px;
+          line-height: 38px;
+          font-size: 16px;
+          &:hover{
+            background-color: $themelightColor;
+          }
+          &.active{
+            border-bottom: 2px solid $themeColor;
+          }
+        }
+      }
+    }
+    .site-sign{
+      display: inline-block;
+      color: $themeColor;
+      .item{
+        display: inline-block;
+        margin-right: 10px;
+        .btn{
+          display: inline-block;
+          padding: 0 20px;
+          line-height: 25px;
+          font-size: 14px;
+          border: 1px solid $themeColor;
+          border-radius: 3px;
+          &:hover{
+            background-color: $themeColor;
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+}

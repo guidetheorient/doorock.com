@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%= require('html-loader!./components/head.html')%>
+  <title><%= htmlWebpackPlugin.options.title %></title>
+  <link rel="stylesheet" href="//at.alicdn.com/t/font_641099_op6ou8m0cr08jjor.css">
+  <script src="https://cdn.bootcss.com/wow/1.1.2/wow.min.js"></script>
+</head>
+<body>
+  <%=require('html-loader!./components/nav.html')%>
+  <section class="sec1">
+    <div class="w wow slideInLeft">
+      <h1 class="slogan">斗石，让技术支持更高效</h1>
+      <h3 class="intro">
+        <span class="item">原厂专业培训认证</span><i class="iconfont icon-dot"></i>
+        <span class="item">同城匹配</span><i class="iconfont icon-dot"></i>
+        <span class="item">说到就到</span>
+      </h3>
+      <div class="btn-wrapper">
+        <a href="#" class="btn">发布你的需求</a>
+        <a href="#" class="btn"><i class="iconfont icon-play"></i>观看视频</a>
+      </div>
+    </div>
+  </section>
+  <section class="sec2">
+    <div class="w">
+      <div class="wrapper con-wrapper wow slideInLeft">
+        <h3 class="title">原厂培训+考核+认证</h3>
+        <p class="text">FAE更懂产品，更专业</p>
+      </div>
+      <div class="wrapper img-wrapper wow slideInRight">
+        <img class="img" data-src="<%=require('../assets/img/photo01.png')%>" alt="">
+      </div>
+    </div>
+  </section>
+  <section class="sec3">
+    <div class="w">
+      <div class="wrapper img-wrapper wow slideInLeft">
+        <img class="img" id="samecity-gif" data-src="<%=require('../assets/img/photo02.gif')%>" alt="">
+      </div>
+      <div class="wrapper con-wrapper wow slideInRight">
+        <h3 class="title">同城，同区匹配FAE</h3>
+        <p class="text">让企业的需求得到快速响应</p>
+      </div>
+    </div>
+  </section>
+  <section class="sec4">
+    <div class="w">
+      <ul class="service-wrapper">
+        <li class="item item1 wow fadeInUp" data-wow-delay="100ms">
+          <a href="#">
+            <div class="service">
+              <img class="logo" data-src="<%=require('../assets/img/img01.png')%>" alt="">
+              <p class="title">产品选型</p>
+              <p class="text">FAE帮您快速锁定<br>最适合的IC型号</p>
+            </div>
+          </a>
+        </li>
+        <li class="item item2 wow fadeInUp" data-wow-delay="200ms">
+          <a href="#">
+            <div class="service">
+              <img class="logo" data-src="<%=require('../assets/img/img02.png')%>" alt="">
+              <p class="title">样片测试</p>
+              <p class="text">样片测试有问题，<br>即时反馈，即时解决</p>
+            </div>
+          </a>
+        </li>
+        <li class="item item3 wow fadeInUp" data-wow-delay="300ms">
+          <a href="#">
+            <div class="service">
+              <img class="logo" data-src="<%=require('../assets/img/img03.png')%>" alt="">
+              <p class="title">DEMO定制开发</p>
+              <p class="text">按企业需要的技术参数<br>定制DEMO，省时省力</p>
+            </div>
+          </a>
+        </li>
+        <li class="item item4 wow fadeInUp" data-wow-delay="400ms">
+          <a href="#">
+            <div class="service">
+              <img class="logo" data-src="<%=require('../assets/img/img04.png')%>" alt="">
+              <p class="title">PCB设计</p>
+              <p class="text">经验丰富的PCB工程师<br>帮您完成PCB制图和评估</p>
+            </div>
+          </a>
+        </li>
+        <li class="item item5 wow fadeInUp" data-wow-delay="500ms">
+          <a href="#">
+            <div class="service">
+              <img class="logo" data-src="<%=require('../assets/img/img05.png')%>" alt="">
+              <p class="title">小样焊接</p>
+              <p class="text">让FAE协助<br>完成小样焊接及调试</p>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <section class="sec5 wow fadeInUp">
+    <div class="w">
+      <ol class="step-list">
+        <li class="item item1">1.发布需求</li>
+        <li class="item item2">2.选择FAE</li>
+        <li class="item item3">3.资金托管</li>
+        <li class="item item4">4.开始服务</li>
+        <li class="item item5">5.验收付款</li>
+        <li class="item item6">6.评价</li>
+      </ol>
+    </div>
+  </section>
+  <section class="sec6">
+    <div class="w">
+      <p class="title wow fadeInUp">从发布一个技术需求开始吧</p>
+      <a href="#" class="btn wow shake">发布需求</a>
+    </div>
+  </section>
+  <section class="sec7">
+    <div class="w">
+      <div class="site-info product">
+        <p class="title">产品</p>
+        <ul>
+          <li class="item"><a href="#">技术课程</a></li>
+        </ul>
+      </div>
+      <div class="site-info company">
+        <p class="title">公司</p>
+        <ul>
+          <li class="item"><a href="#">关于斗石</a></li>
+        </ul>
+      </div>
+      <div class="site-info service">
+        <p class="title">服务</p>
+        <ul>
+          <li class="item"><a href="#">服务协议</a></li>
+          <li class="item"><a href="#">入驻协议</a></li>
+        </ul>
+      </div>
+      <div class="site-info support">
+        <p class="title">支持</p>
+        <ul>
+          <li class="item"><a href="#">帮助中心</a></li>
+          <li class="item"><a href="#">人工客服：025-86553285</a></li>
+          <li class="item">工作时间：周一至周六 上午9:00-下午6:00</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section class="sec8 footer">
+    <div class="w">
+      <p class="copyright">©2015南京斗石信息科技有限公司版权所有 苏ICP备150328951号-1 service@doorock.com</p>
+      <ul class="contact-wrapper">
+        <li class="item">
+          <a href="#" class="wechat-icon">
+            <img src="<%=require('../assets/img/f_img01.png')%>" alt="">
+          </a>
+          <div class="qrcode-wrapper">
+            <img class="wechat-qr" data-src="<%=require('../assets/img/f_img.png')%>" alt="">
+          </div>
+        </li>
+        <li class="item">
+          <a href="#" class="weibo-icon">
+            <img src="<%=require('../assets/img/f_img02.png')%>" alt="">
+          </a>
+        </li>
+        <li class="item">
+          <a href="#" class="qq-icon">
+            <img src="<%=require('../assets/img/f_img03.png')%>" alt="">
+          </a>
+          <div class="qrcode-wrapper">
+            <img class="qq-qr" data-src="<%=require('../assets/img/f_qqimg.png')%>" alt="">
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+</body>
+</html>

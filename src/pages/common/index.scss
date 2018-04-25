@@ -1,0 +1,50 @@
+/*
+ * @Author: guidetheorient 
+ * @Date: 2018-04-24 12:33:56 
+ * @Last Modified by: guidetheorient
+ * @Last Modified time: 2018-04-24 16:19:30
+ */
+
+*,
+*::before,
+*::after{
+  padding: 0;
+  margin: 0;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+ul,
+ol,
+li{
+  list-style: none;
+}
+html,
+body{
+  font-size: 16px;
+  font-family: Helvetica, Arial,"Microsoft Yahei", "PingFang SC", "Hiragino Sans GB";
+  line-height: 1.5;
+  background-color: #fff;
+}
+.w{
+  width: 1130px;
+  position: relative;
+  margin: 0 auto;
+}
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+input[type="text"],
+.ipt{
+  border: none;
+  outline: none;
+  background-color: #fff;
+  &:focus{
+    border: none;
+    outline: none;
+  }
+}
